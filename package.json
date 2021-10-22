@@ -6,7 +6,7 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel serve src/index.html",
-    "deploy": "parcel deploy src/index.html"
+    "build": "parcel deploy src/index.html"
   },
   "author": "GANI",
   "license": "MIT",
