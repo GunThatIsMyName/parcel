@@ -3,12 +3,18 @@
   "version": "1.0.0",
   "description": "VANILLA JAVASCRIPT",
   "main": "index.js",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel serve src/index.html",
+    "build": "parcel build src/index.html",
+    "deploy": "parcel deploy src/index.html"
   },
   "author": "GANI",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0",
     "parcel": "^2.0.0"
+  },
+  "dependencies": {
   }
 }
